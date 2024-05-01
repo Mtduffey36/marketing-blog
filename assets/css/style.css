@@ -1,0 +1,91 @@
+/* * {
+
+
+} */
+
+:root {
+    --border: 10px ridge rgba(11, 135, 167, 0.788);
+    --borderGap: 5px;
+
+
+}
+
+html,body{
+    height: 100%;
+}
+
+/* this does the header and the lines under it */
+header{
+    text-align: right;
+    padding: 5px;
+    border-bottom: var(--border);
+}
+/* this does the main under the header */
+main {
+    height: inherit;
+    display: flex;
+    margin-top: calc(var(--borderGap) * 2);
+    
+    /* align-items: center; */
+}
+
+/* figure and section are the left and right boxes respectfully */
+main figure, main section{ 
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    
+    width: calc(40% - var(--borderGap));
+    border-top: var(--border);
+    padding: 0 5%;
+}
+
+/* main figure has to do with the image box */
+
+/* need to center image horizontally */
+main figure {
+    border-right: var(--border);
+    margin-right: var(--borderGap) ;
+}
+main section {
+    border-left: var(--border);
+    margin-left: var(--borderGap) ;
+    
+    flex-direction: column;
+}
+
+
+main figure img {
+    width: 45vw;
+    
+}
+
+/* main secion has to do with the form partition */
+main section h2 {
+    font-size: larger;
+    font-weight: bolder;
+}
+main section form  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* find better way to do this XDDDDD */
+#userContent {
+    height: 10vw ;
+    /* padding-bottom: 10%; */
+}
+
+
+.light {
+    background-color: white;
+    color: black;
+
+}
+.dark {
+    background-color: black;
+    color: white;
+
+}
