@@ -26,3 +26,14 @@
 
 - Need link to my porfolio
     
+
+## To Erica
+- 
+- 
+- 
+
+## To Duffey
+- 
+- 
+- 
+- 
