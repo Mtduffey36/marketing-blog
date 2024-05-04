@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal Blog</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -19,20 +19,25 @@
 
 <main>
     <figure>
-        <img src="./assets/images/MyFirstBlog.PNG" alt="MyFirstBlog picture">
+        <div class="card">
+            <img class="image1" src="./assets/images/MyFirstBlog.PNG" alt="MyFirstBlog picture">
+        </div>
     </figure>
     <section>
-        <h2> How're you doing today?</h2>
-        <form>
-            <label for="userName">Username:</label>
-            <input type="text" name="userName" id="userName">
-            
-            <label for="userTitle">Title:</label>
-            <input type="text" name="userTitle" id="userTitle">
-            
-            <label for="userContent">Content:</label>
-            <input type="text" name="userContent" id="userContent">
-        </form>
+        <div class="card">
+            <h2> Whats on your mind?</h2>
+            <form id="form">
+                <label for="msg">User Name</label>
+                <textarea id="msg" name="comments"></textarea>
+
+                <label for="msg">Title</label>
+                <textarea id="msg" name="comments"></textarea>
+
+                <label for="msg">Content</label>
+                <textarea id="form" name="comments"></textarea>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </div>
     </section>
 
 

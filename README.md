@@ -1,1 +1,28 @@
-# marketing-blog
+# Blog pseusdo code
+
+## Landing Page
+- Need to create form with labels
+- style to match READme
+- need light mode and dark mode "button" toggle
+- Need inputs for Username, blog title, and blog content
+    - Seperate inputs: Username, Blog Title, Blog Content
+- When submitting, "posted" data is stored in local data *****
+    - then redirected to post page
+- when submitting without entering information, message prompts to enter info. 
+    - "prompt" being key word
+
+## Post Page
+- also needs light and dark mode
+- needs "back" button to be taken back to landing page along with header
+
+## Console
+
+- Local Storage
+
+    - Need JSON array of blog post objects
+        - Username, title, and posts content
+    
+## Footer
+
+- Need link to my porfolio
+    
