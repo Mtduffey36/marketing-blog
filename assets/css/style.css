@@ -123,7 +123,9 @@ select {
 .img {
     margin: 40px 20px;
     margin-top: 0px;
+    margin-bottom: 0px;
     padding: 90px;
+    padding-bottom: 12%;
     width: 40vw;
     float: left;
     border-right: 20px double green;
