@@ -6,18 +6,18 @@ const content = document.getElementById('contentbox');
 
 const submit = document.getElementById('submitbtn');
 
-let mode = 'dark'
-
+let mode = 'light'
+//darkmode function line 11-19
 themeSwitcher.addEventListener('click', function () {
-    if (mode === 'dark') {
-      mode = 'light';
-      container.setAttribute('class', 'light');
-    } else {
+    if (mode === 'light') {
       mode = 'dark';
       container.setAttribute('class', 'dark');
+    } else {
+      mode = 'light';
+      container.setAttribute('class', 'light');
     }
   });
-
+//function for saving post in local storage, and counting said post. line 21-44
   function saveBlog () {
     const key = localStorage.getItem('totalPost');
 
@@ -27,7 +27,7 @@ themeSwitcher.addEventListener('click', function () {
     } else {
       totalPost = parseInt(key) + 1;
     } 
-    
+
     localStorage.setItem('totalPost', totalPost);
 
     const post = {
@@ -40,7 +40,6 @@ themeSwitcher.addEventListener('click', function () {
   }
 
   function blogPage () {
-    
   }
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -53,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
-
+//check for validation. line 55-76
 function validateForm() {
   const userName = document.getElementById('userbox').value.trim();
   const title = document.getElementById('titlebox').value.trim();

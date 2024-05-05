@@ -33,7 +33,7 @@
 - 
 
 ## To Duffey
-- tad stop resetting from dark moke in multiple arrays, neede, and to reset input area
+- take in multiple arrays, need stop resetting from dark mode, and to reset input area
 - 
 - 
 - 
