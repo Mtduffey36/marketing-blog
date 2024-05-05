@@ -6,44 +6,43 @@
     <title>Personal Blog</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-
 </head>
+
 <body class="container dark">
 
-<header>
-    <button id="darkMode">
-        dark
-    </button>
-</header>
+    <header>
+        <h1></h1>
+        <label class="switch">
+            <input type="checkbox" id="theme-switcher">
+            <span class="slider round"></span>
+        </label>
+    </header>
 
+    <main>
+        <figure>
+            <div class="img">
+                <img class="image1" src="./assets/images/MyFirstBlog.PNG" alt="MyFirstBlog picture">
+            </div>
+        </figure>
+            <li>
+                <div class="card">
+                    <h2> Whats on your mind?</h2>
+                    <form id="form">
+                        <label for="msg">User Name</label>
+                        <textarea id="userbox" name="comments"></textarea>
 
-<main>
-    <figure>
-        <div class="card">
-            <img class="image1" src="./assets/images/MyFirstBlog.PNG" alt="MyFirstBlog picture">
-        </div>
-    </figure>
-    <section>
-        <div class="card">
-            <h2> Whats on your mind?</h2>
-            <form id="form">
-                <label for="msg">User Name</label>
-                <textarea id="msg" name="comments"></textarea>
+                        <label for="msg">Title</label>
+                        <textarea id="userbox" name="comments"></textarea>
 
-                <label for="msg">Title</label>
-                <textarea id="msg" name="comments"></textarea>
-
-                <label for="msg">Content</label>
-                <textarea id="form" name="comments"></textarea>
-                <input id="submit" type="submit" value="Submit">
-            </form>
-        </div>
-    </section>
-
-
-</main>
+                        <label for="msg">Content</label>
+                        <textarea id="contentbox" name="comments"></textarea>
+                        <input id="submitbtn" type="submit" value="Submit">
+                    </form>
+                </div>
+            </li>
+    </main>
     
-<script src="./assets/js/logic.js">
-</script>
+    <script src="./assets/js/logic.js">
+    </script>
 </body>
 </html>

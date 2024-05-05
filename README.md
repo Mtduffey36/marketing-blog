@@ -28,7 +28,7 @@
     
 
 ## To Erica
-- 
+- polished css off on main page. connected border lines. i think it looks ok for what it is..but youre more than welcome to play with it
 - 
 - 
 
