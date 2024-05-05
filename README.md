@@ -29,7 +29,7 @@
 
 ## To Erica
 - polished css off on main page. connected border lines. i think it looks ok for what it is..but youre more than welcome to play with it
-- 
+- added dark/light mode functionality. on dark mode, form title is not visible, needs a fix. 
 - 
 
 ## To Duffey
