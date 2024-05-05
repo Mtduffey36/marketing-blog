@@ -160,6 +160,15 @@ select {
   
 }
 
+#titlebox {
+  display: block;
+  min-height: 0px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: whitesmoke;
+  
+}
+
 #contentbox {
     display: block;
     min-height: 100px;
