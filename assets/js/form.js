@@ -3,29 +3,24 @@ const title = document.getElementById('titlebox');
 const content = document.getElementById('contentbox');
 const submit = document.getElementById('submitbtn');
 
+
 function saveBlog () {
-    const key = localStorage.getItem('totalPost'); //saves post to local storage
-
-    let totalPost = 0;
-    if(key === null) {
-      totalPost = 1;
-    } else {
-      totalPost = parseInt(key) + 1; //increase the counter on the number of post
-    } 
-
-    localStorage.setItem('totalPost', totalPost);
-
+   const blogList = JSON.parse(localStorage.getItem("blogList"));
+    
     const post = {
       userName: userName.value.trim(),
       title: title.value.trim(),
       content: content.value.trim(),
     };
-
-    localStorage.setItem(totalPost, JSON.stringify(post)); //the actual values that are stored in local storage
-  }
-
-  function blogPage () {
-  }
+  
+    if(blogList === null){
+        localStorage.setItem("blogList", JSON.stringify([post])); 
+    } else { 
+        blogList.push(post)
+      
+        localStorage.setItem("blogList", JSON.stringify(blogList));
+    } 
+}
 
 document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('myForm').addEventListener('submit', function(event) {

@@ -1,0 +1,61 @@
+.card {
+  display: inline-block;
+  width: 50%;
+  min-height: auto;
+  background-color: transparent;
+  padding-top: 20px;
+  margin: 80px; 
+  padding-right: 90px;
+ }
+
+.card::after {
+  content: " ";
+  display: block;
+  clear: both;  
+}
+
+#userbox {
+  display: block;
+  min-height: 0px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: whitesmoke;
+  color: whitesmoke;
+  }
+
+#titlebox {
+  display: block;
+  min-height: 0px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: whitesmoke;
+  
+}
+
+#contentbox {
+  display: block;
+  min-height: 100px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: whitesmoke;
+}
+
+.light {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+
+.dark label{
+  color: white;
+}
+
+
+@media only screen and (max-width: 800px) {
+ 
+}
