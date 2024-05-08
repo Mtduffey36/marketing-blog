@@ -33,9 +33,8 @@
 
 - I also created a "Form Validation" function to pop an alert if any of the fields were left blank
 
-[Marketing Blog][def]
+[Marketing Blog](https://mtduffey36.github.io/marketing-blog/)
 
-[def]: https://mtduffey36.github.io/marketing-blog/
 
 ![example home](./assets/images/homePage.PNG)
 
@@ -46,6 +45,4 @@
 
 ## **Collaboration**
 
-- Made within partnership with [Erica Acosta][def]
-
-[def]: https://github.com/Ejacosta86
+- Made within partnership with [Erica Acosta](https://github.com/Ejacosta86)
