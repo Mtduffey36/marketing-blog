@@ -16,11 +16,11 @@ function saveBlog () {
     if(blogList === null){
         localStorage.setItem("blogList", JSON.stringify([post])); 
     } else { 
-        blogList.push(post)
+        blogList.push(post);
       
         localStorage.setItem("blogList", JSON.stringify(blogList));
-    } 
-}
+    }; 
+};
 
 document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('myForm').addEventListener('submit', function(event) {
@@ -41,16 +41,16 @@ function validateForm() { //function that sends an alert that nothing in entered
   if (userName === "") {
       alert("Please enter your username.");
       return false;
-  }
+  };
 
   if (title === "") {
       alert("Please enter a title.");
       return false;
-  }
+  };
 
   if (content === "") {
       alert("Please enter the content.");
       return false;
-  }
+  };
   return true;
-}
+};

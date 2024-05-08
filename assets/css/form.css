@@ -14,13 +14,16 @@
   clear: both;  
 }
 
+.inputText[type="text"] {
+  font-size:25px
+}
+
 #userbox {
   display: block;
   min-height: 0px;
   width: 100%;
   margin-top: 10px;
   background-color: whitesmoke;
-  color: whitesmoke;
   }
 
 #titlebox {

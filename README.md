@@ -1,39 +1,51 @@
-# Blog pseusdo code
+# Marketing Blog 
 
-## Landing Page
-- Need to create form with labels
-- style to match READme
-- need light mode and dark mode "button" toggle
-- Need inputs for Username, blog title, and blog content
-    - Seperate inputs: Username, Blog Title, Blog Content
-- When submitting, "posted" data is stored in local data *****
-    - then redirected to post page
-- when submitting without entering information, message prompts to enter info. 
-    - "prompt" being key word
+## **Scope of work**
 
-## Post Page
-- also needs light and dark mode
-- needs "back" button to be taken back to landing page along with header
+**_The objective here was to create a simplistic blog for a user to enter information and then see a list of their post on the following page_**
 
-## Console
+**HTML**
 
-- Local Storage
+- Created two separate .html files to handle the two difference pages where one would be the home page and display the form required to fill out, "User Name", "Title", and "Content." The other to display the stored post
 
-    - Need JSON array of blog post objects
-        - Username, title, and posts content
-    
-## Footer
+- Both pages would have similar element structure
 
-- Need link to my porfolio
-    
+- Both pages have light/dark mode functionality
 
-## To Erica
-- polished css off on main page. connected border lines. i think it looks ok for what it is..but youre more than welcome to play with it
-- added dark/light mode functionality. on dark mode, form title is not visible, needs a fix. 
-- 
+**CSS**
 
-## To Duffey
-- take in multiple arrays, need stop resetting from dark mode, and to reset input area
-- 
-- 
-- 
+- Copied and paste for both index.css and blog.css for the most part. 
+
+- index.css mainly carries the form attributes
+
+- blog.css mainly carries the inputs from JS functionality to display the post
+
+
+**JavaScript**
+
+- There are three .js files: "form.js", "blog,js", and "logic.js"
+
+- form.js carries the logic for the home page and stores the input array into local storage
+
+- blog.js carries the logic for the blog post page and calls out and displays the information out of local storage
+
+- logic.js carries logic used by both form and blog
+
+- I also created a "Form Validation" function to pop an alert if any of the fields were left blank
+
+[Marketing Blog][def]
+
+[def]: https://mtduffey36.github.io/marketing-blog/
+
+![example home](./assets/images/homePage.PNG)
+
+![example post](./assets/images/blogPage.PNG)
+
+
+
+
+## **Collaboration**
+
+- Made within partnership with [Erica Acosta][def]
+
+[def]: https://github.com/Ejacosta86
